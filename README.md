@@ -72,7 +72,7 @@ Implementing a distributed key-value store using Elixir.
 4. Start the CLI in any of the terminals:
 
    ```elixir
-   DistributedKVStore.CLI.main()
+   Netdb.CLI.main()
    ```
 
 ## Usage
@@ -99,7 +99,7 @@ Goodbye!
 
 ## Architecture
 
-The system is built using Elixir's GenServer behavior, which manages the state of each node. The `DistributedKVStore` module handles the core logic, including:
+The system is built using Elixir's GenServer behavior, which manages the state of each node. The `Netdb` module handles the core logic, including:
 
 - State management
 - CRUD operations
